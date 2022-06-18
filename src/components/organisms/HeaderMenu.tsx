@@ -1,13 +1,27 @@
 import React from "react"
+import styled from "styled-components"
+
+const Header = styled.div`
+display: block;
+`;
+
+const List = styled.ul`
+display: flex;
+`;
+
+const Item = styled.li`
+list-style-type: none;
+`;
 
 export default function HeaderMenu() {
+
   return (
-    <div>
-      <ul>
-        <li>プロフィール</li>
-        <li>日記</li>
-        <li>ギャラリ〜</li>
-      </ul>
-    </div>
+    <Header>
+      <List>
+        <Item>プロフィール</Item>
+        <Item>日記</Item>
+        <Item>ギャラリ〜</Item>
+      </List>
+    </Header>
   )
 }
