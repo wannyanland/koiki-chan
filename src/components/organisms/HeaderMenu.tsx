@@ -3,19 +3,21 @@ import styled from "styled-components"
 
 const List = styled.ul`
 padding: 0;
+margin:0;
 display: flex;
+flex-wrap: wrap;
 `;
 
 const Item = styled.li`
 list-style-type: none;
-min-width: 200px;
+min-width: 150px;
 padding: 10px;
 text-align: center;
 border: 5px solid #808080;
+border-bottom: 0;
 border-radius: 5px 5px 0 0;
-:nth-child(2n) {
-  margin: 0 2px 0 2px;
-}
+background-color: white;
+gap: 15px;
 :hover {
   border-color: transparent;
   background-color: #43919B;
@@ -27,12 +29,11 @@ border-radius: 5px 5px 0 0;
 export default function HeaderMenu() {
 
   return (
-    <div>
       <List>
+        <Item>ホーム</Item>
         <Item>プロフィール</Item>
         <Item>にっき</Item>
         <Item>ギャラﾘ</Item>
       </List>
-    </div>
   )
 }
