@@ -14,12 +14,13 @@ min-height: 600px;
 max-width: 900px;
 border-radius: 0 5px 5px 5px;
 background-color: white;
+padding: 10px;
 `
 
-export default function Container(props: {children?: ReactNode; }) {
+export default function Container(props: {children?: ReactNode; active: number }) {
   return (
     <ContainerWrap>
-    <HeaderMenu></HeaderMenu>
+    <HeaderMenu active={props.active}></HeaderMenu>
     <DivContainer>{props.children}</DivContainer>
     </ContainerWrap>
   )
