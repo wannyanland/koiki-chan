@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Header from 'components/organisms/Header'
-import Container from 'components/organisms/Container'
+import Head from "next/head";
+import Header from "components/organisms/Header";
+import Container from "components/organisms/Container";
 
 export default function Diary() {
   return (
@@ -12,9 +12,9 @@ export default function Diary() {
       </Head>
 
       <main>
-      <Header></Header>
-      <Container active={3}></Container>
+        <Header></Header>
+        <Container active={3}></Container>
       </main>
     </div>
-  )
+  );
 }

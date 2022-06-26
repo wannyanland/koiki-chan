@@ -9,6 +9,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  color: #247881;
 }
 
 * {
@@ -17,4 +18,8 @@ a {
 
 li {
   list-style-type: none;
+}
+
+p {
+  margin: 0;
 }
