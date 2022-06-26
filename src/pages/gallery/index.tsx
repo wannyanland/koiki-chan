@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Header from 'components/organisms/Header'
-import Container from 'components/organisms/Container'
+import Head from "next/head";
+import Header from "components/organisms/Header";
+import Container from "components/organisms/Container";
 
 export default function Gallery() {
   return (
@@ -12,9 +12,9 @@ export default function Gallery() {
       </Head>
 
       <main>
-      <Header></Header>
-      <Container active={4}></Container>
+        <Header></Header>
+        <Container active={4}></Container>
       </main>
     </div>
-  )
+  );
 }
