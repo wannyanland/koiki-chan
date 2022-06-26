@@ -10,7 +10,6 @@ gap: 5px;
 `;
 
 const Item = styled.a<{isActive: boolean}>`
-list-style-type: none;
 min-width: 150px;
 padding: 10px;
 text-align: center;
