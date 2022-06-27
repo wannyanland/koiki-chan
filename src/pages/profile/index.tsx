@@ -11,6 +11,7 @@ const SpeechProfile = styled.dl`
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  align-items: center;
 
   dt {
     width: 28%;
@@ -104,8 +105,6 @@ export default function Profile() {
               <KainushiProfile>
                 <p>
                 小粋ちゃんのご飯を稼ぐため働くWebエンジニア
-                <br />
-                東京から松本へ移住予定🏡
                 </p>
               </KainushiProfile>
               <Github></Github>

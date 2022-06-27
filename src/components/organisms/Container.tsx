@@ -10,11 +10,12 @@ const ContainerWrap = styled.div`
 
 const DivContainer = styled.div`
   border: 5px solid #808080;
-  min-height: 600px;
+  height: 600px;
   max-width: 900px;
   border-radius: 0 5px 5px 5px;
   background-color: white;
   padding: 30px;
+  overflow-x: scroll;
 `;
 
 export default function Container(props: {

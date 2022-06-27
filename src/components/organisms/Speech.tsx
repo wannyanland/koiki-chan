@@ -4,7 +4,7 @@ import styled from "styled-components";
 const SpeechContainer = styled.div`
   position: relative;
   display: inline-block;
-  padding: 10px;
+  padding: 20px;
   min-width: 200px;
   max-width: 100%;
   background: #d8e3e7;
