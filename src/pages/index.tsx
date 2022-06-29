@@ -4,8 +4,8 @@ import Container from "components/organisms/Container";
 import styled from "styled-components";
 
 const MainWrapper = styled.div`
-width: 50%;
 margin: 0 auto;
+text-align: center;
 `
 
 export default function Home() {
@@ -21,7 +21,20 @@ export default function Home() {
         <Header></Header>
         <Container active={1}>
           <MainWrapper>
-            <p>来てくれてありがとう</p>
+            <div>
+              <p>NEWS</p>
+              <div></div>
+            </div>
+
+            <div>
+              <p>NEW！にっき</p>
+              <div></div>
+            </div>
+
+            <div>
+              <p>お問い合わせはこちらから🐥</p>
+              <div></div>
+            </div>
           </MainWrapper>
         </Container>
       </main>
